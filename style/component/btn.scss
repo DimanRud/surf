@@ -1,0 +1,33 @@
+.btn {
+  text-transform: uppercase;
+  font-size: rem(16px);
+  line-height: rem(18px);
+  text-decoration: none;
+  font-weight: 800;
+  padding: rem(21px) rem(41px);
+  border-radius: rem(100px);
+  border: none;
+  cursor: pointer;
+
+
+
+  &--theme--yellow {
+    background: $yellow;
+    color: rgba(0, 0, 0, 1);
+  }
+  &--theme--yellow:hover {
+    background-color: #FFD517;
+  }
+
+  &--theme--ghost {
+    background: none;
+    color: white;
+    font-weight: normal;
+    font-size: rem(18px);
+    line-height: rem(22px);
+    text-transform: none;
+  }
+  &--theme--ghost:hover {
+    color: $yellow;
+  }
+}

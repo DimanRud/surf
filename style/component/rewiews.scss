@@ -1,0 +1,73 @@
+.rewiews__display {
+  background: rgba(248, 250, 249, 1);
+  padding: rem(52px) rem(280px) rem(45px) rem(34px);
+  margin-bottom: rem(25px);
+}
+
+.rewiews__display-inner {
+  display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 170%;
+    height: 500px;
+    margin: 0 auto;
+  }
+  @include phones {
+    width: 230%;
+    height: 50%;
+  }
+}
+
+.rewiews__avatar {
+  width: rem(253px);
+  height: rem(264px);
+
+
+  @include tablets {
+    width: rem(130px);
+  height: rem(130px);
+  }
+}
+
+.rewiews__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.rewiews__content {
+  flex: 1;
+  margin-top: rem(30px);
+  margin-left: rem(20px);
+}
+
+.rewiews__title {
+  font-weight: 700;
+  font-size: rem(27px);
+  line-height: rem(32px);
+  margin-bottom: rem(14px);
+  color: black;
+}
+
+.rewiews__text {
+  color: rgba(102, 102, 102, 1);
+  margin-bottom: rem(20px);
+}
+
+.rewiews__auther {
+  font-weight: bold;
+  color: black;
+}
+
+.rewiews__switcher {
+  display: flex;
+  justify-content: center;
+  gap: rem(6px);
+
+  @include phones {
+    margin-bottom: rem(86px);
+  }
+}

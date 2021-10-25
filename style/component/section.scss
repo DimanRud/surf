@@ -1,0 +1,39 @@
+.section {
+  min-height: rem(652px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section__title {
+  font-size: rem(48px);
+  font-weight: 700;
+  line-height: rem(58px);
+  text-transform: uppercase;
+  margin-bottom: rem(60px);
+  text-align: center;
+  color: black;
+}
+.section__title-form {
+  color: white;
+
+
+  @include tablets {
+    margin-top: rem(25px);
+  }
+}
+.order-section {
+  background: url('../img/form.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+
+  @include tablets {
+    padding-bottom: rem(50px);
+  }
+}
+.section-why {
+  @include phones {
+    padding-bottom: rem(100px);
+  }
+}
