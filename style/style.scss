@@ -1,0 +1,33 @@
+$containerWidht: 1080px;
+$baseFontSize: 18px;
+
+$z-fixed-menu: 100;
+
+
+$tablets: 768px;
+$phones:480px;
+$yellow: #FEDB3F;
+$grey: #666666;
+$bacgrey: #F8FAF9;
+
+
+@import "media.scss";
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap');
+@import "layout";
+@import "component/hero.scss";
+@import "component/header.scss";
+@import "component/features.scss";
+@import "component/feature.scss";
+@import "component/btn.scss";
+@import "component/section.scss";
+@import "component/headline.scss";
+@import "component/proofs.scss";
+@import "component/proof.scss";
+@import "component/rewiews.scss";
+@import "component/interactive.scss";
+@import "component/form.scss";
+@import "component/radio.scss";
+@import "component/fixed-menu.scss";
+@import "component/map.scss";
+@import "component/hamburger.scss";
