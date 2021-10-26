@@ -3,7 +3,7 @@ $baseFontSize: 18px;
 
 $z-fixed-menu: 100;
 
-
+$min-phone: 320px;
 $tablets: 768px;
 $phones:480px;
 $yellow: #FEDB3F;
@@ -31,3 +31,4 @@ $bacgrey: #F8FAF9;
 @import "component/fixed-menu.scss";
 @import "component/map.scss";
 @import "component/hamburger.scss";
+@import "component/footer.scss"
