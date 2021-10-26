@@ -6,6 +6,7 @@
   justify-content: space-between;
   @include tablets {
     display: inline-flex;
+    margin-top: 10px;
   }
 }
 

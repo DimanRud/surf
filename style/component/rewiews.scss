@@ -2,6 +2,11 @@
   background: rgba(248, 250, 249, 1);
   padding: rem(52px) rem(280px) rem(45px) rem(34px);
   margin-bottom: rem(25px);
+
+
+  @include min-phone {
+    padding: rem(52px) rem(180px) rem(45px) rem(34px);
+  }
 }
 
 .rewiews__display-inner {

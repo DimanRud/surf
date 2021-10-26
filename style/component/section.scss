@@ -33,7 +33,11 @@
   }
 }
 .section-why {
+  @include tablets {
+    margin-bottom: 175px;
+  }
   @include phones {
+    margin-bottom: 65px;
     padding-bottom: rem(100px);
   }
 }
